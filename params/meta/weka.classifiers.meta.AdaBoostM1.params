@@ -1,0 +1,11 @@
+Q {REMOVED,REMOVE_PREV}[REMOVE_PREV]
+p_HIDDEN {0,1}[0]
+    1_P {100}[100]
+    2_INT_P [50,100][100]
+INT_I [2,128][10]
+S {1}[1]
+W {weka.classifiers.bayes.BayesNet, weka.classifiers.bayes.NaiveBayes, weka.classifiers.functions.MultilayerPerceptron, weka.classifiers.functions.SMO, weka.classifiers.lazy.IBk, weka.classifiers.lazy.KStar, weka.classifiers.trees.J48, weka.classifiers.rules.DecisionTable, weka.classifiers.trees.RandomTree}[weka.classifiers.bayes.NaiveBayes]
+
+Conditionals:
+1_P | p_HIDDEN in {0}
+2_INT_P | p_HIDDEN in {1}

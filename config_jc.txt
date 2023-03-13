@@ -1,0 +1,8 @@
+autoweka.smac.SMACExperimentConstructor
+
+nome da pasta original:
+smacexecutable=smac-v2.10.03-master-778/smac
+
+para tornar o weka.classifiers.meta.AutoWEKAClassifier() como default
+-> basta alterar o ExplorerDefaults.java
+-> linha 121, 207, 212.
